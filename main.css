@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.preload {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preload-finish {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#bm {
+  width: 20%;
+}
+
+.main {
+  text-align: center;
+  width: 90%;
+  opacity: 0;
+  display: none;
+  transition: opacity 2s ease-in;
+}
+.site {
+  text-align: center;
+  width: 90%;
+  opacity: 0;
+  display: none;
+  transition: opacity 2s ease-in;
+}
